@@ -76,7 +76,7 @@ The exported JSON file will look like this:
 ]
 ```
 
-This JSON file should then be used with the script located in the GitHub repository to automate the process of liking the tracks on Deezer. You can find the script [here](https://github.com/Awksys/EsoundToDeezer/edit/main/LikeOnDeezer.md).
+This JSON file should then be used with the script located in the GitHub repository to automate the process of liking the tracks on Deezer. You can find the script [here](https://github.com/Awksys/EsoundToDeezer/edit/main/LikeOnDeezer.py).
 
 ## 💡 Notes
 
