@@ -1,33 +1,38 @@
 
 # 🎵 Esound to Deezer - Auto Like Music Bot
 
-Ce projet Python automatise la récupération des titres que vous avez likés sur l'application **Esound** pour ensuite les rechercher et les liker automatiquement sur **Deezer**.  
-Très utile pour synchroniser vos coups de cœur entre différentes plateformes de streaming musical 🎶
+This Python project automates the retrieval of tracks you've liked on the **Esound** app and then searches for and likes them automatically on **Deezer**. It's perfect for syncing your favorite music across different streaming platforms 🎶
 
-## Fonctionnalités
+## Features
 
-- ✅ Récupération des titres likés depuis Esound.
-- ✅ Automatisation complète du like des titres sur Deezer.
-- ✅ Gestion des titres non trouvés et en cas de doute.
-- ✅ Cookies persistants pour éviter les reconnexions manuelles.
-- ✅ Vérification de la popularité d’un titre pour éviter les faux positifs.
-- ✅ Simulation réaliste pour limiter les risques de détection anti-bot.
+- ✅ Retrieves liked tracks from Esound.
+- ✅ Fully automates liking tracks on Deezer.
+- ✅ Handles unfound tracks and ambiguous matches.
+- ✅ Persistent cookies to avoid manual re-logins.
+- ✅ Popularity check to avoid false positives.
+- ✅ Realistic simulation to minimize anti-bot detection risks.
 
-## Prérequis
+## Prerequisites
 
-- Python 3.7 ou plus
-- Navigateur Chrome
-- Compte Deezer
-- Compte Esound
+- Python 3.7 or higher
+- Chrome browser
+- Deezer account
+- Esound account
 
 ## Installation
 
-1. Clonez le dépôt :
+1. Clone the repository:
    ```bash
-   git clone https://github.com/ton-utilisateur/esound-to-deezer.git
+   git clone https://github.com/your-username/esound-to-deezer.git
    cd esound-to-deezer
+   ```
 
----
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Set up your environment variables for Deezer and Esound credentials.
 
 ## ⚙️ How to Use
 
@@ -53,8 +58,6 @@ Très utile pour synchroniser vos coups de cœur entre différentes plateformes 
 
    This will download a `musiques.json` file containing all the tracks you collected.
 
----
-
 ## 📂 Output
 
 The exported JSON file will look like this:
@@ -62,18 +65,18 @@ The exported JSON file will look like this:
 ```json
 [
   {
-    "titre": "Song Title 1",
-    "artiste": "Artist Name 1"
+    "title": "Song Title 1",
+    "artist": "Artist Name 1"
   },
   {
-    "titre": "Song Title 2",
-    "artiste": "Artist Name 2"
+    "title": "Song Title 2",
+    "artist": "Artist Name 2"
   }
   // ...and so on
 ]
 ```
 
----
+This JSON file should then be used with the script located in the GitHub repository to automate the process of liking the tracks on Deezer. You can find the script [here](https://github.com/Awksys/EsoundToDeezer/edit/main/LikeOnDeezer.md).
 
 ## 💡 Notes
 
@@ -81,9 +84,6 @@ The exported JSON file will look like this:
 - The export works at any time — but make sure to scroll until the end of the list for a complete export!
 - No installation needed — pure browser script.
 
----
-
 ## 🛠️ Disclaimer
 
-This tool is intended for personal use only.
-Respect Esound’s terms of service and copyright laws when exporting your playlists.
+This tool is intended for personal use only. Respect Esound’s terms of service and copyright laws when exporting your playlists.
